@@ -100,3 +100,104 @@ img {
     background: #EDEFDE;
     border-color: transparent;
 }
+
+.hero {
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 100px);
+    gap: 3rem;
+    padding: 0 40px;
+}
+
+.hero__image {
+    width: 50%;
+    height: 90%;
+    border-radius: 3rem;
+}
+
+.hero-course {
+    width: 50%;
+}
+
+.hero-course__title {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-course__author {
+    display: inline;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.hero-course__rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.hero-course__stars {
+    display: flex;
+    font-size: 1rem;
+}
+
+.hero-course__reviews {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.hero-course__label {
+    margin: 1.5rem 0 0.7rem;
+    font-size: 1rem;
+}
+
+.hero-course__mode-option,
+.hero-course__duration-option,
+.hero-course__button {
+    padding: 0.4rem 1rem;
+    margin-left: 0.4rem;
+    border-radius: 2rem;
+    background: #FFF;
+    border: 1px solid #CCC;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-course__mode-option:hover,
+.hero-course__duration-option:hover,
+.hero-course__button:hover {
+    background: #F7F7F7;
+}
+
+.hero-course__actions {
+    margin-top: 2rem;
+}
+
+.hero-course__price {
+    font-weight: 700;
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.hero-course__price-original {
+    margin-left: 0.6rem;
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.hero-course__button {
+    padding: 0.8rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.hero-course__button--enroll {
+    background: #66BB6A;
+    border-color: transparent;
+    color: #FFF;
+}
+
+.hero-course__button--enroll:hover {
+    background: #388E3C;
+}

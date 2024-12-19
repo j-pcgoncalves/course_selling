@@ -396,3 +396,50 @@ img {
 .about__details-button:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+.gradient {
+    background: linear-gradient(180deg, #FFF 0%, #E0F2FF 20%, #B0D4FF 100%);
+    margin-top: 5rem;
+}
+
+.subscription {
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.subscription__title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.subscription__description {
+    margin: 1rem 0 2rem;
+}
+
+.subscription__form {
+    position: relative;
+    background: #FFF;
+    display: inline;
+    padding: 0.6rem 0.4rem 0.7rem;
+    border-radius: 2rem;
+}
+
+.subscription__input {
+    padding: 0.4rem;
+    width: 320px;
+    border: none;
+    outline: none;
+}
+
+.subscription__button {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    background: #A2CFF8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.subscription__button:hover {
+    background: #83BFF5;
+}

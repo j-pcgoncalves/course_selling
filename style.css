@@ -569,3 +569,84 @@ img {
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 20px;
+    }
+
+    .hero {
+        padding: 0 20px;
+        gap: 2rem;
+    }
+
+    .hero-course__title {
+        font-size: 1.8rem;
+    }
+
+    .separator {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .program {
+        padding: 0 20px;
+    }
+
+    .program__title {
+        font-size: 1.6rem;
+    }
+
+    .program__details {
+        flex-direction: column;
+    }
+
+    .program__details-duration,
+    .program__details-format,
+    .course-list__item {
+        width: 100%;
+    }
+
+    .career {
+        margin-top: 3rem;
+    }
+
+    .career__title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .career__image-photo {
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .about {
+        margin: 40px 20px 0 20px;
+    }
+
+    .about__details-title {
+        font-size: 1.8rem;
+    }
+
+    .subscription__title {
+        font-size: 2rem;
+    }
+
+    .subscription__description {
+        font-size: 0.9rem;
+    }
+
+    .subscription__input {
+        width: 280px;
+    }
+
+    .footer__branding {
+        display: none;
+    }
+
+    .footer__link {
+        font-size: 0.9rem;
+    }
+}

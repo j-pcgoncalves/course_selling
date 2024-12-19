@@ -481,3 +481,59 @@ img {
     margin: 2rem 0 1rem;
     text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .navbar__notch,
+    .program__image {
+        display: none;
+    }
+
+    .navbar__menu {
+        gap: 0.6rem;
+    }
+
+    .hero-course__mode-option {
+        margin-left: 0 !important;
+    }
+
+    .program {
+        flex-direction: column;
+    }
+
+    .program__info {
+        width: 100%;
+    }
+
+    .program__details {
+        justify-content: space-around;
+    }
+
+    .course-list {
+        flex-wrap: wrap;
+    }
+
+    .course-list__item {
+        width: 46%;
+    }
+
+    .about {
+        padding: 1rem 0rem 1rem 4rem;
+    }
+
+    .about__image {
+        width: 30%;
+        height: 80%;
+    }
+
+    .about__details-title {
+        font-size: 2.2rem;
+    }
+
+    .about__details-description {
+        font-size: 0.9rem;
+    }
+
+    .footer-links {
+        justify-content: space-between;
+    }
+}

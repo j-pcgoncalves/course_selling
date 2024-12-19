@@ -537,3 +537,35 @@ img {
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 1010px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero__image,
+    .hero-course,
+    .career__details,
+    .career__image,
+    .about__details {
+        width: 100%;
+    }
+
+    .hero__image {
+        aspect-ratio: 1/1;
+    }
+
+    .career {
+        flex-direction: column;
+    }
+
+    .about {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .about__image {
+        display: none;
+    }
+}

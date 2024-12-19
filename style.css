@@ -332,3 +332,21 @@ img {
 .career {
     margin-top: 5rem;
 }
+
+.career__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.career__benefit-title {
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.career__benefit-description {
+    font-size: 0.9rem;
+}
+

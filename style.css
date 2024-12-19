@@ -443,3 +443,41 @@ img {
 .subscription__button:hover {
     background: #83BFF5;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    margin-top: 4rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer__link {
+    transition: all 0.3s ease;
+}
+
+.footer__link:hover {
+    transform: translateX(8px);
+}
+
+.footer__brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer__copyright {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    text-align: center;
+}
